@@ -51,8 +51,7 @@ function SignUp(){
       });
       
       if (res.ok) {
-        // login immediately after creating an account
-        console.log("signup success"); // /!\ outputs to browser console /!\
+        return router.push('/dashboard');
       }
     }
     
