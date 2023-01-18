@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Federo&family=Fira+Sans&display=swap');
+.main {
+    min-height: 100vh;
+    background-image: url(../images/background.svg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.navbarcontainer {
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+}
+.navbar{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.contentbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* background-color: aliceblue; */
+
+}
+.top{
+    font-size: 96px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.low{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Federo', sans-serif;
+    height: 40vh;
+    /* background-color: aliceblue; */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.leftmain{
+    font-size: 32px;
+}
+.leftdetails{
+    font-size: 24px;
+}
+.rightmain{
+    font-size: 64px;
+}

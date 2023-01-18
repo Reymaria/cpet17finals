@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Federo&family=Fira+Sans&display=swap');
+.main {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.navbarcontainer {
+    color: #2A5BD8;
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+}
+.navbar{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    margin-top: 1%;
+}
+.BoxContainer{
+    width: 65%;
+    background-color: aliceblue;
+    border: 1px solid #b8b8b8;
+    /* filter: blur(2px); */
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    background: linear-gradient(
+        to right,
+        #4D62CE 0%,
+        #4D62CE 40%,
+        white 40%,
+        white 100%
+    );
+}
+
+.SignupBox {
+    margin-left: 15px;
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    width: 60%;
+}
+
+.SUForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.SUMain{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #283DA7;
+    margin-top: 95px; 
+}
+
+.SUFormDetails{
+    padding-top: 30px;
+    width: 100%;
+    /* background-color: #b8b8b8; */
+}
+
+.SUDetails{
+    margin-bottom: 30px;
+}
+
+.SULabels{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.SUInputs{
+    width: 98%;
+    height: 10%;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.submitbttn{
+    width: 224.32px;
+    height: 55.73px;
+    font-size: 25px;
+    background: #2A5BD8;
+    mix-blend-mode: normal;
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 8%;
+}
+
+.DetailsBox{
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.DetailsHead{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.DetailsInfo{
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.HrefDir{
+    width: 10.7rem;
+    height: 4rem;
+    font-size: 25px;
+    background: transparent;
+    mix-blend-mode: normal;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.HrefDir:hover{
+    color: #283DA7;
+    background-color: #FFFFFF;
+}
+.submitbttn:hover{
+    color: #283DA7;
+    background-color: white;
+    border: 1px solid #283DA7
+}

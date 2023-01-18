@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Federo&family=Fira+Sans&display=swap');
+.main {
+    min-height: 100vh;
+    background-image: url(../images/background.svg);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 70vh;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2rem;
+
+}
+.top{
+    font-size: 45px;
+    font-family: 'Federo', sans-serif;
+    font-weight: bold;
+    margin: 2rem;
+    text-align: center;
+}
+.middle{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+.low{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    /* background-color: aliceblue; */
+    width: 100%;
+}
+
+.FormDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+
+}
+.FPLabels{
+    font-size: 25px;
+}
+
+.FPInputs{
+    width: 50vh;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.13);
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.lowerpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vh;
+    padding: 10px;
+}
+
+.submitbttn{
+    width: 18vh;
+    height: 6.5vh;
+    font-size: 20px;
+    background: #2A5BD8;
+    mix-blend-mode: normal;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 8%;
+    margin-top: 10px;
+}
+.lowpart{
+    font-size: 20px;
+}
+.HrefDir{
+    color: black;
+    width: 25vh;
+    height: 6.5vh;
+    font-size: 20px;
+    background: white ;
+    mix-blend-mode: normal;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 8%;
+    margin-top: 10px;
+}

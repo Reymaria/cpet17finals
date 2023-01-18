@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Federo&family=Fira+Sans&display=swap');
+.main {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.navbarcontainer {
+    color: #2A5BD8;
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+}
+.navbar{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    margin-top: 1%;
+}
